@@ -1,0 +1,21 @@
+{
+    "trailingSlash": "never",
+    "routes" : [
+        {
+            "route": "/index.html",
+            "rewrite" : "/prueba2-widget.html"
+        },
+        {
+            "route": "/prueba2-widget.html",
+            "rewrite" : "/prueba2-widget.html"
+        },
+        {
+            "route": "/prueba2-widget.css",
+            "rewrite" : "/prueba2-widget.css"
+        },
+        {
+            "route": "/prueba2-widget.js",
+            "rewrite" : "/prueba2-widget.js"
+        }
+    ]
+}
