@@ -1,0 +1,21 @@
+{
+    "metadata": {
+      "name": "OneFeelWidget",
+      "descrption": "OneFeel app",
+      "tags": ["widget", "onefeel"],
+      "version": "1.0",
+      "date": "2023-11-24T12:01:51.684Z",
+      "id": "c39b8a36-7503-430e-acd1-49277fa24a4b"
+    },
+    "configuration": {
+      "external": true,
+      "enabled": true,
+      "name": "c39b8a36-7503-430e-acd1-49277fa24a4b",
+      "icon": "aoc-home",
+      "element": "<prueba2-widget></prueba2-widget>",
+      "permissions": [],
+      "shortcuts": [],
+      "localization": [],
+      "files": ["/prueba2-widget.js"]
+    }
+  }
