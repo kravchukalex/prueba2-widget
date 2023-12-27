@@ -6,7 +6,7 @@
 
 class Prueba2Widget extends HTMLElement {
   static _WIDGETNAME = 'prueba2-widget'
-  static _WIDGETURL = 'https://insideone-onequality.web.app/'
+  static _WIDGETURL = 'https://calm-glacier-086945410.4.azurestaticapps.net'
 
   constructor() {
     super()
@@ -26,9 +26,7 @@ let connectedCallback = () => {
     this.initWidgetCode()
   });
 
-  this.interactionId = this.getAttribute("interacrionid")
-
-  this.api = window.WS.widgetAPI(this.interactionId);
+  this.api = window.WS.widgetAPI();
 }
 
 let initWidgetCode = () => {
