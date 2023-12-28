@@ -1,7 +1,7 @@
 ["https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"].forEach((u) => {
   var script = document.createElement("script");
   script.src = u;
-  document.head.appendChild(script);
+  document.body.appendChild(script);
 });
 
 class Prueba2Widget extends HTMLElement {
