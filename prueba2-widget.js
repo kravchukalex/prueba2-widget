@@ -14,13 +14,16 @@ class Prueba2Widget extends HTMLElement {
     this.style.overflowX = "hidden";
 
     fetch(`${Prueba2Widget._WIDGETURL}/${Prueba2Widget._WIDGETNAME}.html`)
-      .then((data) => data.text())
+      .then((data) => {
+        console.log("datita -----", data)
+        data.text()})
       .then((html) => {
         this.innerHTML += `<link rel="stylesheet" href="${Prueba2Widget._WIDGETURL}/${Prueba2Widget._WIDGETNAME}.css">`;
         this.innerHTML += html;
         this.initWidgetCode();
       });
     {
+
     }
   }
 
