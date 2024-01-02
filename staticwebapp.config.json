@@ -17,5 +17,13 @@
             "route": "/prueba2-widget.js",
             "rewrite" : "/prueba2-widget.js"
         }
-    ]
+    ],  
+        "globalHeaders": {
+      
+          "Access-Control-Allow-Origin": "*",
+      
+          "Access-Control-Allow-Methods": "POST, GET, OPTIONS"
+      
+        }
+      
 }
