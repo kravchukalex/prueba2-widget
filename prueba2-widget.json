@@ -1,11 +1,44 @@
+
 {
-  "name": "Prueba2-widget",
-  "description": "Basic web component",
-  "tags": ["widget", "demo", "api"],
-  "version": "1.0.0",
-  "id": "c39b8a36-7503-430e-acd1-49277fa24a4b",
-  "element": "<prueba2-widget></prueba2-widget>",
-  "icon": "aoc-home",
-  "files": ["/prueba2-widget.js"],
-  "override_url": "https://calm-glacier-086945410.4.azurestaticapps.net"
+
+  "metadata": {
+
+    "name": "Prueba2-widget",
+
+    "description": "Basic web component",
+
+    "tags": "widget, demo, api",
+
+    "version": "1.0",
+
+    "date": "2023-10-19T12:00:00.51.68Z",
+
+    "id": "c39b8a36-7503-430e-acd1-49277fa24a4b"
+
+  },
+
+  "configuration": {
+
+    "external": true,
+
+    "enabled": true,
+
+    "name": "c39b8a36-7503-430e-acd1-49277fa24a4b",
+
+    "icon": "aoc-home",
+
+    "element": "<prueba2-widget></prueba2-widget>",
+
+    "permissions": [],
+
+    "shortcuts": [],
+
+    "localisation": [],
+
+    "files": ["/prueba2-widget.js"],
+
+    "override_url": "https://calm-glacier-086945410.4.azurestaticapps.net"
+
+  }
+
 }

@@ -16,7 +16,8 @@ class Prueba2Widget extends HTMLElement {
     fetch(`${Prueba2Widget._WIDGETURL}/${Prueba2Widget._WIDGETNAME}.html`)
       .then((data) => {
         console.log("datita -----", data)
-        data.text()})
+       return data.text()})
+        
       .then((html) => {
         this.innerHTML += `<link rel="stylesheet" href="${Prueba2Widget._WIDGETURL}/${Prueba2Widget._WIDGETNAME}.css">`;
         this.innerHTML += html;
