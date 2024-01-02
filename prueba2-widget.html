@@ -1,42 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="dist/css/neo/neo.min.css" />
-    <style>
-        body, html {
-          margin: 0;
-          padding: 0;
-          height: 100%;
-          overflow: hidden;
-        }
-        iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          border: none; /* Para eliminar el borde del iframe */
-        }
-      </style>
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="neo-widget__content" style="overflow-y: auto">
-      <div _ngcontent-tjv-c75="" puppeteer-id="interaction-details__header" class="neo-widget__header">
-        <nav class="neo-navbar">
+<div class="neo-widget__content" style="overflow-y: auto">
+
+  <div _ngcontent-tjv-c75="" puppeter-id="interaction-details__header" class="neo-widget__header">
+
+      <nav class="neo-navbar">
+
           <div class="neo-nav--left">
-            <a class="neo-navbar__brand" title="Neo Framework">
-              <img src="https://design.avayacloud.com/images/avaya-logo-header.svg" />
-              <p>Template Widget</p>
-            </a>
+
+              <a class="neo-navbar__brand" title="Neo Framework">
+
+                  <img src="https://design.avayacloud.com/images/avaya-logo-header.svg">
+
+                  <p>Custom Widget</p>
+
+              </a>
+
           </div>
-        </nav>
-      </div>
-    </div>
-    <div>
-        <iframe src="https://insideone-onequality.web.app/" width="100%" height="100%" allowfullscreen></iframe>
-      </div>
-  </body>
-</html>
+
+      </nav>
+
+  </div>
+
+  <!-- overflow unset es para la correcta visualización de los modals-->
+
+  <div class="new-widget__body" style="height: 100%; overflow: unset;">
+
+      <h5>¡Bienvenido <b id="firstName"></b> <b id="lastName"></b>!</h5>
+
+      <h5>Su usuario es: <b id="extensionClient"></b></h5>
+
+      
+
+  </div>
+
+</div>
+
