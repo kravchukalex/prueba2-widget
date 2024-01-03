@@ -6,7 +6,7 @@
 
 class Prueba2Widget extends HTMLElement {
   static _WIDGETNAME = "prueba2-widget";
-  static _WIDGETURL = "https://calm-glacier-086945410.4.azurestaticapps.net";
+  static _WIDGETURL = "https://onefeel.insideone.cloud/";
 
   connectedCallback() {
     this.classList.add("neo-widget");
