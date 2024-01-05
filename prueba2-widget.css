@@ -5,3 +5,7 @@
 .widget--prueba2-widget .bar {
     padding: 5px;
 }
+
+.test{
+    overflow-y: auto;
+}
